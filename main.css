@@ -1,0 +1,94 @@
+body {
+    background-image: url('img/term2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a {
+    color: inherit;
+}
+
+.text {
+    font-family: Dejavu Sans;
+    color: rgb(0, 255, 42);
+    font-size: 30px;
+    top: 150px;
+    position: relative;
+}
+
+.photo {
+    border-radius: 50%;
+    width: 15%;
+    height: auto;
+    top: 50px;
+    position: relative;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    position: relative;
+    top: 70px;
+}
+
+.flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.flex-items:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.flex-items:nth-child(4) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.flex-items:nth-child(5) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.fa-stack-overflow {
+    color: rgb(0, 255, 42);
+}
+
+.fa-linkedin {
+    color: rgb(0, 255, 42);
+}
+
+.fa-github {
+    color: rgb(0, 255, 42);
+}

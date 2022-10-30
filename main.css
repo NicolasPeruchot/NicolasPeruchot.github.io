@@ -1,85 +1,35 @@
 body {
-    background-image: url('img/term2.png');
+    background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
+
+
 a {
     color: inherit;
 }
 
-.text {
-    font-family: Dejavu Sans;
+
+span.green {
+    font-family: Dejavu Sans Mono;
     color: rgb(0, 255, 42);
-    font-size: 30px;
-    top: 150px;
-    position: relative;
+    font-size: 20px;
 }
 
-.photo {
-    border-radius: 50%;
-    width: 15%;
-    height: auto;
-    top: 50px;
-    position: relative;
+span.blue2 {
+    font-family: Dejavu Sans Mono;
+    color: rgb(75, 201, 255);
+    font-size: 20px;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: stretch;
-    position: relative;
-    top: 70px;
+div.blue {
+    font-family: Dejavu Sans;
+    color: rgb(30, 101, 255);
+    font-size: 20px;
 }
 
-.flex-items:nth-child(1) {
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
-}
-
-.flex-items:nth-child(2) {
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
-}
-
-.flex-items:nth-child(3) {
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
-}
-
-.flex-items:nth-child(4) {
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
-}
-
-.flex-items:nth-child(5) {
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
-}
 
 .fa-stack-overflow {
     color: rgb(0, 255, 42);
@@ -90,5 +40,9 @@ a {
 }
 
 .fa-github {
+    color: rgb(0, 255, 42);
+}
+
+.fa-paperclip {
     color: rgb(0, 255, 42);
 }

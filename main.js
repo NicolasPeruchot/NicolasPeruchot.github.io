@@ -85,6 +85,12 @@ var A = setInterval(function () {
             break;
 
         case 9:
+            var element = document.getElementById("mail");
+            element.innerHTML = '<span class="blue2">Email <i class="fa fa-envelope fa-1" aria-hidden="true"></i></span>';
+            state += 1;
+            break;
+
+        case 10:
             var element = document.getElementById("final-blue");
             var text_to_change = element.childNodes[0];
             text_to_change.nodeValue = '[~] ';
@@ -97,14 +103,6 @@ var A = setInterval(function () {
             }
             i += 1
             break;
-
-
-
-
-
-
-
-
 
     }
 
